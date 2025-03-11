@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 
+<<<<<<< HEAD
 // Define Holiday type
 type Holiday =
     | "Eid-Ul-Fitr"
@@ -66,4 +67,8 @@ export function CycleHoliday(): React.JSX.Element {
             </div>
         </div>
     );
+=======
+export function CycleHoliday(): React.JSX.Element {
+    return <div>Cycle Holiday</div>;
+>>>>>>> origin/task-components
 }
