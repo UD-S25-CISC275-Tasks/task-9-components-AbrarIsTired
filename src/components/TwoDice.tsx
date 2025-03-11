@@ -12,7 +12,6 @@ export function d6(): number {
 }
 
 export function TwoDice(): React.JSX.Element {
-<<<<<<< HEAD
     const [leftDie, setLeftDie] = useState<number>(() => {
         const initial = d6();
         if (initial !== 1) {
@@ -68,7 +67,4 @@ export function TwoDice(): React.JSX.Element {
             )}
         </div>
     );
-=======
-    return <div>Two Dice</div>;
->>>>>>> origin/task-components
 }
